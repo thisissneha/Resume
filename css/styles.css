@@ -1,0 +1,148 @@
+:root{
+    --grey: #352a49fa;
+    --light-grey: gray;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: cursive;
+}
+
+.dark-gray{
+    color: var(--grey);
+}
+
+.light-gray{
+    color: var(--light-grey);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.font-weight{
+    font-weight: 600 !important;
+}
+
+ul{
+    padding-left: 10px;
+    list-style-type: '- ';
+}
+
+.m3{
+    margin: 15px 0px;
+}
+
+.m2{
+    margin-bottom: 15px;
+}
+
+.m3 p{
+    font-weight: 500;
+}
+
+.small-font, li{
+    font-size: 13px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+small{
+    color: white;
+    font-size: 13px;
+    background-color: var(--grey);
+    padding: 5px 10px;
+    margin: 8px 5px !important;
+    border-radius: 6px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.text-deco{
+    text-decoration: none;
+    color: black;
+}
+
+.box1{
+    padding: 27px;
+}
+
+.bold {
+    border: none;
+    height: 2px;
+    background-color: #333;
+  }
+
+.fas, .fab{
+    padding-right: 18px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 30px;
+}
+
+.grid-item {
+    padding: 7px; 
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.box3{
+    width: 100vw;
+}
+
+.education, .experience{
+    padding: 27px;
+    padding-bottom: 20px;
+}
+
+.education{
+    padding-bottom: 0px;
+}
+
+.box4{
+    width: 95vw;
+}
+
+.skills, .projects, .certificate {
+    padding: 27px;
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+    }
+
+    .grid-container{
+        display: block;
+    }
+
+    .box4{
+        width: 100vw;
+    }
+
+    .certificate{
+        padding-bottom: 20px;
+    }
+
+    .skills{
+        padding-top: 0px !important;
+    }
+
+}
