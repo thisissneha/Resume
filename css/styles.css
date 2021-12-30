@@ -37,7 +37,7 @@ body{
     list-style: none;
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 12vw;
+    grid-column-gap: 8vw;
     padding-left: 16px;
 }
 
@@ -132,7 +132,7 @@ body{
 }
 
 .skills-project-certi{
-    width: 96vw;
+    width: 100vw;
 }
 
 .skills, .projects, .certificate {
